@@ -37,7 +37,7 @@ test('checked checkbox',()=>{
   //checked button disable when checked box
   const colorButton=screen.getByRole('button');
 
-  const checkBox=screen.getByRole('checkbox');
+  const checkBox=screen.getByRole('checkbox',{name:'disabled button'});
 
   fireEvent.click(checkBox);
   expect(colorButton).toBeDisabled()
