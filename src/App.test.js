@@ -40,7 +40,8 @@ test('checked checkbox',()=>{
   const checkBox=screen.getByRole('checkbox',{name:'disabled button'});
 
   fireEvent.click(checkBox);
-  expect(colorButton).toBeDisabled()
+  expect(colorButton).toBeDisabled();
+  expect(colorButton).toHaveStyle({background:'gray'})
 
 fireEvent.click(checkBox)
 expect(colorButton).toBeEnabled()
