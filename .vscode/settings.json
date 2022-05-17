@@ -1,0 +1,13 @@
+{
+    "[markdown]": {
+
+
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.acceptSuggestionOnCommitCharacter": false,
+
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none"
+}
